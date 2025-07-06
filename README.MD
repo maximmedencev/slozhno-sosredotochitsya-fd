@@ -1,0 +1,1 @@
+https://github.com/maximmedencev/slozhno-sosredotochitsya-fd/ Проектная работа "Сложно сосредоточиться" третьего спринта курса "Яндекс.Практикум" Фронтенд-разработчик

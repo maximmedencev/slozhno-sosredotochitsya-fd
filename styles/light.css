@@ -9,8 +9,53 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --page-bg-color: #fff;
+  --cover-image: url("../images/cover-image-light.png");
+  --menu-color: #353430;
+  --header-title-color: #ffc2e6;
+  --menu-hover-color: rgba(50, 49, 45, 0.4);
+  --main-title-shadow-color: #ff8dcb;
+  --highlighted-box-background-color: #ff8dcb;
+  --topic-title-color: #353430;
+  --text-color: #000028;
+  --paragraph-text-color: #353430;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-light .header__rec-decoration-text {
+  display: none;
+}
+
+.theme-light .header__rec-decoration-circle:after {
+  display: none;
+}
+
+.theme-light .upper-angle-decoration {
+  margin-inline-start: 35px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+    --page-bg-color: #fff;
+    --cover-image: url("../images/cover-image-light.png");
+    --menu-color: #353430;
+    --header-title-color: #ffc2e6;
+    --menu-hover-color: rgba(50, 49, 45, 0.4);
+    --main-title-shadow-color: #ff8dcb;
+    --highlighted-box-background-color: #ff8dcb;
+    --topic-title-color: #353430;
+    --text-color: #000028;
+    --paragraph-text-color: #353430;
+  }
+
+  .theme-auto .header__rec-decoration-text {
+    display: none;
+  }
+
+  .theme-auto .header__rec-decoration-circle:after {
+    display: none;
+  }
+
+  .theme-auto .upper-angle-decoration {
+    margin-inline-start: 35px;
+  }
 }
