@@ -17,8 +17,10 @@
   --main-title-shadow-color: #ff8dcb;
   --highlighted-box-background-color: #ff8dcb;
   --topic-title-color: #353430;
-  --text-color: #000028;
   --paragraph-text-color: #353430;
+  --link-shadow-color: #ff8dcb;
+  --text-color: #353430;
+  --link-decoration-color: #353430;
 }
 
 .theme-light .header__rec-decoration-text {
@@ -43,19 +45,13 @@
     --main-title-shadow-color: #ff8dcb;
     --highlighted-box-background-color: #ff8dcb;
     --topic-title-color: #353430;
-    --text-color: #000028;
     --paragraph-text-color: #353430;
+    --link-shadow-color: #ff8dcb;
+    --text-color: #353430;
+    --link-decoration-color: #353430;
   }
 
   .theme-auto .header__rec-decoration-text {
     display: none;
-  }
-
-  .theme-auto .header__rec-decoration-circle:after {
-    display: none;
-  }
-
-  .theme-auto .upper-angle-decoration {
-    margin-inline-start: 35px;
   }
 }

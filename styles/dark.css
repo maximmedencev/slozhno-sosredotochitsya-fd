@@ -21,16 +21,9 @@
   --highlighted-box-background-color: #ff0070;
   --topic-title-color: #ff0070;
   --paragraph-text-color: #f1b2ce;
+  --link-shadow-color: #ff0070;
 }
 
 .theme-dark .header__rec-decoration-text {
   display: inline;
-}
-
-.theme-dark .header__rec-decoration-circle:after {
-  display: block;
-}
-
-.theme-dark .upper-angle-decoration {
-  margin-inline-start: 4px;
 }
